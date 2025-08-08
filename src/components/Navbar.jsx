@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
 
         {/* Center - Logo */}
-        <div className="text-white text-2xl font-bold">LOGO</div>
+        <div className="text-white text-2xl font-bold">ShopEase</div>
 
         {/* Right - Buttons */}
         <div className="flex items-center space-x-4">
