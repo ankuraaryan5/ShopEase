@@ -35,7 +35,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative w-full md:min-h-screen flex flex-col justify-center items-center text-white transition-all duration-500"
+      className="relative w-full min-h-screen flex flex-col justify-center items-center text-white transition-all duration-500 pt-16"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundSize: "cover",
@@ -46,10 +46,13 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Hero Content */}
-      <div className="relative z-10 text-center mb-8 sm:mt-32 md:mt-0">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">Discover Your Scent</h1>
+      <div className="relative z-10 text-center mb-8 ">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">
+          Discover Your Scent
+        </h1>
         <p className="text-lg md:text-xl max-w-xl mx-auto">
-          Explore our exclusive collection and find the fragrance that defines you.
+          Explore our exclusive collection and find the fragrance that defines
+          you.
         </p>
       </div>
 
